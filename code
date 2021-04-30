@@ -9,7 +9,7 @@ root = Tk()
 root.geometry('600x300') 
 root.configure(bg='black') 
 root.resizable(0, 0) 
-root.title("Eunice - Message cryptographer") 
+root.title("Message cryptographer") 
 
 Label(root, text='ENCODER-DECODER', font='Timesnewroman 14 bold').pack() 
 Label(root, text=('Dont share your key to anyone,except the sender', "\U0001F92B"),font='Timesnewroman 11 normal').pack(side=BOTTOM) 
